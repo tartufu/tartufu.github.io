@@ -1,0 +1,36 @@
+
+
+body {
+	padding: 10px;
+	max-width: 2000px;
+}
+
+.hero-text {
+	margin-top: 40px;
+}
+
+.background-story, .projects, .contact-me {
+	margin-left: 20px;
+}
+
+.career-highlights, .portfolio {
+	padding: 20px;
+}
+
+.social-media {
+	display: flex;
+	justify-content: space-around;
+	font-size: 36px;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 16px 0 12px 0;
+}
+
+footer p {
+	line-height: 10px;
+}
