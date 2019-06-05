@@ -5,9 +5,22 @@ body {
 	max-width: 2000px;
 }
 
+@media (min-width: 992px) {
+		.main-banner {
+		height:100vh;
+		padding-top: 150px;
+	}
+}
+
+.profile-img {
+	border-radius: 50%;
+	width: 100%;
+}
+
 .hero-text {
 	margin-top: 40px;
 }
+
 
 .background-story, .projects, .contact-me {
 	margin-left: 20px;
