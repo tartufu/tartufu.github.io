@@ -44,6 +44,27 @@ p {
 /*	padding-top: 90px;
 */}
 
+.marketing-skills, .web-skills {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.marketing-skills p, .web-skills p {
+	margin-right: 16px;
+	border: 1px solid red;
+	padding: 4px;
+}
+
+.projects h1 {
+	font-weight: bold;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.projects {
+	padding-top: 32px;
+}
+
 .career-highlights, .portfolio {
 	padding: 20px;
 }
