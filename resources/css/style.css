@@ -2,7 +2,11 @@
 
 body {
 	padding: 10px;
-	max-width: 2000px;
+	font-size: 18px;
+}
+
+p {
+	font-size: 18px;
 }
 
 @media (min-width: 992px) {
@@ -12,19 +16,33 @@ body {
 	}
 }
 
+.main-banner {
+	background-color: #DCDCDC;
+}
+
 .profile-img {
 	border-radius: 50%;
 	width: 100%;
+	border: 5px solid black;
 }
 
 .hero-text {
 	margin-top: 40px;
 }
 
-
-.background-story, .projects, .contact-me {
-	margin-left: 20px;
+.background-story {
 }
+
+.about-me-img {
+	width: 100%;
+	padding: 16px;
+	text-align: center;
+}
+
+.my-story h1 {
+	font-weight: bold;
+/*	padding-top: 90px;
+*/}
 
 .career-highlights, .portfolio {
 	padding: 20px;
