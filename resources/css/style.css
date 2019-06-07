@@ -1,8 +1,6 @@
-
-
-div {
-/*	padding: 10px;
-*/	font-size: 18px;
+html,body {
+    margin:0;
+    padding:0;
 }
 
 p {
@@ -82,5 +80,10 @@ p {
   text-align: center;
   margin-top: 32px;
   padding: 8px;
+}
 
+footer {
+  background-color: black;
+  width: 100%;
+  padding: -16px;
 }
