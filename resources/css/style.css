@@ -7,6 +7,15 @@ p {
 	font-size: 18px;
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
 @media (min-width: 992px) {
 		.main-banner {
 		height:100vh;
@@ -16,6 +25,10 @@ p {
 
 .main-banner {
 	background-color: #DCDCDC;
+}
+
+.main-banner a {
+	color: black;
 }
 
 .profile-img {
@@ -61,6 +74,19 @@ p {
 
 .projects {
 	padding-top: 32px;
+}
+
+.projects img {
+	width: 100%;
+}
+
+.projects h3 {
+	text-align: center;
+	font-weight: bold;
+}
+
+.projects a:hover {
+	color: white;
 }
 
 .contact-me {
