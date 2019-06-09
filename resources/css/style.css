@@ -25,6 +25,18 @@ a:hover {
 	background-color: #4FAF98;
 }
 
+.navbar {
+	background-color: #60d5b9;
+}
+
+.nav-link {
+	color: white;
+}
+
+.navbar-toggler {
+	color: white;
+}
+
 @media (min-width: 992px) {
 		.main-banner {
 		height:100vh;
@@ -43,7 +55,7 @@ a:hover {
 .profile-img {
 	border-radius: 50%;
 	width: 100%;
-	border: 5px solid black;
+	border: 5px solid #60d5b9;
 }
 
 .hero-text {
