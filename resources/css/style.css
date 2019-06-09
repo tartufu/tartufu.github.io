@@ -16,6 +16,15 @@ a:hover {
 	text-decoration: none;
 }
 
+.btn {
+	background-color: #60d5b9;
+	color: white;
+}
+
+.btn:hover {
+	background-color: #4FAF98;
+}
+
 @media (min-width: 992px) {
 		.main-banner {
 		height:100vh;
@@ -62,7 +71,7 @@ a:hover {
 
 .marketing-skills p, .web-skills p {
 	margin-right: 16px;
-	border: 1px solid red;
+	border: 2px solid #60d5b9;
 	padding: 4px;
 }
 
